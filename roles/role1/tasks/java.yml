@@ -1,0 +1,4 @@
+---
+- name: install java
+  apt: name=openjdk-11-jdk state=latest
+  become: true

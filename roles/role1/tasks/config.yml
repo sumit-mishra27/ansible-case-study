@@ -1,0 +1,5 @@
+---
+- name: Post Installation
+  copy: src=index.html dest=/var/www/html
+  become: true
+
